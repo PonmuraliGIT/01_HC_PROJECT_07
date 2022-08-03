@@ -1,0 +1,143 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+.container {
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+  margin : 0 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.hero-img{
+  width:80%;
+  padding-left:24px;
+}
+ .nav-items {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: flex-end;
+  column-gap: 60px; 
+  font-size: 1.1rem;
+}
+.nav-items:first-child {
+  color:tomato;
+}
+.active-item {
+  color:tomato;
+}
+.logo {
+  width:80px;  
+}
+.action-icons {
+  width:240px;
+}
+h1{
+  font-size:5rem;
+  font-family: "Fredoka One";
+  margin:0;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight:500;
+  margin: 0;
+}
+.subh{
+font-size:1.2rem;
+padding:8px;
+}
+.circles {
+  width:40px;
+}
+.plus{
+  background-color: tomato;
+  color:white;
+  padding:4px 12px;
+  margin-right:4px;
+  border-radius: 55%;
+  font-size:1.5rem;
+}
+.sub-headlines {
+  padding-left: 5%;
+  padding-bottom:2%;
+}
+.intro-section{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  
+  padding:2%;
+}
+.right-section {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  color:#9b9999;
+  font-size:1.1rem;
+}
+.headphone-div {
+  position:relative;
+}
+.discount{
+  position:absolute;
+  width:28%;
+  bottom:13%;
+  left:-1%;
+}
+.discount-content {
+  position:absolute;
+  top: 56%;
+  left:6%;
+  color:white;
+  font-size:1.2rem;
+  
+}
+.discount-content h4{
+  margin-bottom: 0.5rem;
+}
+.discount-content h1{
+font-size:2.5rem;
+font-weight:300;
+}
+.action-btns {
+padding-top:48px;
+
+}
+.action-btn {
+  background-color: tomato;
+  color:white;
+  outline:none;
+  padding: 12px 24px;
+  border : 1px solid tomato;
+  border-radius:24px;
+  margin-right:8px;
+  font-size:1rem;
+  font-family : "Poppins";
+}
+.dots {
+display: flex;
+column-gap: 8px;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 24px;
+}
+.dot {
+  padding:12px;
+  border-radius :50%
+}
+
+.yellow-dot {
+  background-color: yellow;
+}
+.tomato-dot {
+  background-color: tomato;
+}
+.black-dot {
+  background-color: black;
+}
