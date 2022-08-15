@@ -23,9 +23,13 @@ nav {
   justify-content: flex-end;
   column-gap: 60px; 
   font-size: 1.1rem;
+  align-self: center;
 }
 .nav-items:first-child {
   color:tomato;
+}
+.nav-item {
+  cursor:pointer;
 }
 .active-item {
   color:tomato;
@@ -67,7 +71,7 @@ padding:8px;
 }
 .intro-section{
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 3fr 2fr; 
   
   padding:2%;
 }
@@ -76,6 +80,7 @@ padding:8px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 .text{
   color:#9b9999;
@@ -141,3 +146,78 @@ column-gap: 8px;
 .black-dot {
   background-color: black;
 }
+
+@media screen and (max-width:600px) {
+  nav {    
+    justify-content: space-evenly;
+    column-gap: 16px;
+    height:72px;
+  }
+  .nav-items {
+      column-gap: 24px; 
+      font-size:0.9rem;
+   
+  }
+
+  .intro-section {
+    display: flex;
+   flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+  nav {    
+     column-gap: 24px;
+     height:96px;
+  }
+  .nav-items {
+      column-gap: 24px;   }
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+   }
+   h1{
+    font-size:3rem;
+   
+  }
+  h3 {
+    font-size: 1.5rem;
+
+  }
+  
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ h1{
+    font-size:3rem;
+   
+  }
+  h3 {
+    font-size: 1.5rem;
+
+  }
+
+  .discount-content {
+
+    font-size:0.8rem;
+    
+  }
+
+  .discount-content h1{
+  font-size:1.2rem;
+  }
+} 
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  
+   .discount-content {
+ 
+     font-size:1.2rem;
+     
+   }
+ 
+   .discount-content h1{
+   font-size:1.5rem;
+   }
+ } 
